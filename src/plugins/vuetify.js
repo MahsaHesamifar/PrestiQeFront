@@ -7,7 +7,6 @@
 // Styles
 import "@mdi/font/css/materialdesignicons.css";
 import "vuetify/styles";
-import { fa } from "vuetify/locale";
 
 // Composables
 import { createVuetify } from "vuetify";
@@ -19,5 +18,17 @@ export default createVuetify({
   },
   theme: {
     defaultTheme: "dark",
+    themes: {
+      dark: {
+        colors: {
+          primary: "#C36EFF",
+          secondary: "#FF0A62",
+          purple: "#DD57FF",
+          pink: "#FF0A62",
+          yellow: "#FFE975",
+          background: "#151827",
+        },
+      },
+    },
   },
 });
