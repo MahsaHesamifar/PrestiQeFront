@@ -8,6 +8,7 @@
             <div class="my-10 text-purple">برد گیم؟</div>
             <div class="my-10 text-pink">بازی های ویدیویی؟</div>
             <div class="my-10 text-yellow">نقش آفرینی؟</div>
+            <div class="my-10 text-yellow">اتاق فرار؟</div>
           </div>
         </div>
         <div class="text-h4 mt-10">"اینجا برا همه جا هست"</div>
@@ -50,12 +51,28 @@
 <style>
 @keyframes scrollContnet {
   0% {
+    margin-top: -40px;
   }
-  50% {
-    margin-top: -100px;
+  14% {
+    margin-top: -40px;
+  }
+  28% {
+    margin-top: -120px;
+  }
+  43% {
+    margin-top: -120px;
+  }
+  56% {
+    margin-top: -200px;
+  }
+  70% {
+    margin-top: -200px;
+  }
+  84% {
+    margin-top: -280px;
   }
   100% {
-    margin-top: -200px;
+    margin-top: -280px;
   }
 }
 
@@ -147,7 +164,7 @@
         height: 70px;
         overflow: hidden;
         .scrollContnet {
-          animation: scrollContnet 5s ease-in-out infinite alternate;
+          animation: scrollContnet 8s ease-in-out infinite alternate;
         }
       }
     }
